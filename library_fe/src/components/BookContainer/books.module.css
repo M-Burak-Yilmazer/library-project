@@ -1,0 +1,33 @@
+.button {
+  background-color: rgb(5, 113, 77);
+  color: rgb(242, 196, 196);
+  padding: 0.8rem;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-image: url(https://basecamplive.com/wp-content/uploads/2023/02/books.jpeg);
+}
+.detailbook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.btnContainer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
